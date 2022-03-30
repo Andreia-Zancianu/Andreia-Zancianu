@@ -1,0 +1,72 @@
+/* SPECIFICITATE: !important > inline style > ID > CLASS > TAG */
+/* 2 clase > 1 clasa; 2 tag-uri > 1 tag */
+/* ID trebuie sa avem doar unul */
+
+/* selectorii care au specificitate */
+/* #final-destination {
+    font-weight: bold;
+    color: purple;
+}
+
+
+.programming-language {
+    font-size: 24px;
+    color: green;
+} */
+
+/* cand folosim semnul !important atunci toate paragrafele vor prelua culoarea lui */
+/* p {
+    color:blueviolet !important;
+    background-color: chartreuse;
+} */
+
+/* aici avem un id si un tag */
+/* #blog p {
+    color:red;
+    background-color: azure;
+} */
+
+/* putem pune selectori unul dupa altul pentru a pune aceeasi culoare */
+/* h1,
+h2 {
+    color: grey;
+} */
+
+
+/* cand punem mouse deasupra la h1 apare culoarea gri */
+/* h1:hover {
+    color: grey;
+
+} */
+
+/* de la 0 la 255 sunt valorile combinatiilor de culori */
+/* putem sa-i mai dam un al 4lea grad (de opacitate se cheama) si adaugam un (a) la RGB*/
+/* color picker= rgb si hex cu #in fata */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    color: rgba(101, 57, 135, 0.8);
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: bold;
+}
+#Astazi invatam box {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: pink;
+    margin: 40px;
+    padding: 40px;
+    border: solid 10px black;
+}
+
+
+
+/* font weight este 400 sau 700 */
+/* inaltimea este data de line-height nu de font size */
+/* despre fonturi: google fonts..variatiuni de font */
+/* padding este spatiul intern  */
+/* marginea este spatiul extern */
+/* border este format din 3bucati si delimiteaza elementul*/
+/* box model:continut, margini, padding, border */
