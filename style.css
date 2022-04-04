@@ -61,7 +61,9 @@ p {
     border: solid 10px black;
 }
 
-
+h2 {
+    color: red;
+}
 
 /* font weight este 400 sau 700 */
 /* inaltimea este data de line-height nu de font size */
